@@ -147,7 +147,7 @@ app.on('error', (err, ctx, startTime, endTime) => {
   logs.error(ctx, startTime, endTime, err);
 });
 
-const port = process.env.PORT || '3100';
+const port = process.env.PORT || '3300';
 
 // 启动服务监听
 app.listen(port);

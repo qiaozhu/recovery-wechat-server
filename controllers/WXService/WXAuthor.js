@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 // const client = new OAuth('your appid', 'your secret');
 const WXBizDataCrypt = require('./WXBizDataCrypt');
-const request = require('request');
+// const request = require('request');
 
 // 微信认证管理相关
 
